@@ -1,8 +1,9 @@
-  var reverse_str="";
+  let str = "naman";
+	var reverse_str="";
   for(let i=str.length-1;i>=0;i--){
-      reverse+=str[i];
+      reverse_str += str[i];
   }
-  if(reverse_str==str){
+  if(reverse_str == str){
       console.log("Yes");
   }
   else{
